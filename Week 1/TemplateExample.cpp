@@ -58,14 +58,14 @@ private:
 
 //Main 
 
-int main()
-{
-	cout << "Template Example" << endl << endl;
-	cout << "Min = " << min_func(30, 26) << endl;
-	cout << "Max = " << max_func(56.1, 43.6) << endl;
-
-	//Create 2 "TempClass" class obj and compare them. 
-	cout << "Max (objects) = " << max_func(TempClass<int>(7), TempClass<int >(4)).GetVal();
-	system("pause");
-	return 0;
-}
+//int main()
+//{
+//	cout << "Template Example" << endl << endl;
+//	cout << "Min = " << min_func(30, 26) << endl;
+//	cout << "Max = " << max_func(56.1, 43.6) << endl;
+//
+//	//Create 2 "TempClass" class obj and compare them. 
+//	cout << "Max (objects) = " << max_func(TempClass<int>(7), TempClass<int >(4)).GetVal() << endl;
+//	system("pause");
+//	return 0;
+//}
