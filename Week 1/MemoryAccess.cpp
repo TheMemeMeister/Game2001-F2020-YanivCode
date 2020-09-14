@@ -50,9 +50,9 @@ int main()
 	clock_t end = clock();
 	cout << "Time elapsed in rows = " << diffClock(end, begin) << " ms" << endl;
 
-	 begin = clock();
+	begin = clock();
 	column_ordered();
-	 end = clock();
+	end = clock();
 	cout << "Time elapsed in columns = " << diffClock(end, begin) << " ms" << endl;
 
 	system("pause");
